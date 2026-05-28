@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gold: #c8a96e;
+  --gold-dim: #8a7148;
+  --cream: #f0eadc;
+  --dark: #040407;
+  --dark2: #0c0c14;
+  --dark3: #13131f;
+  --border: rgba(200, 169, 110, 0.15);
+  --muted: #7a7880;
+  --font-serif: 'Instrument Serif', serif;
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--dark);
+  color: var(--cream);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
